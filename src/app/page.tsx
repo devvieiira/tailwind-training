@@ -3,6 +3,7 @@ import SettingsTabs from "@/components/SettingsTabs";
 import { Mail } from "lucide-react";
 
 import * as FileInput from "@/components/Form/FileInput";
+import Select from "@/components/Form/Select";
 
 export default function Home() {
 	return (
@@ -109,6 +110,7 @@ export default function Home() {
 						>
 							Country
 						</label>
+						<Select />
 						<div />
 					</div>
 
