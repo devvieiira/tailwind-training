@@ -10,6 +10,7 @@ const config: Config = {
 		extend: {
 			gridTemplateColumns: {
 				app: "minmax(18rem, 20rem) 1fr",
+				profile: "max-contect 1fr max-content",
 			},
 			colors: {
 				teste: "#8257e6",
