@@ -1,21 +1,32 @@
 import { InputControl, InputPrefix, InputRoot } from "@/components/Input";
 import SettingsTabs from "@/components/SettingsTabs";
-import { Bold, Italic, Link, List, ListOrdered, Mail } from "lucide-react";
+import {
+	Bold,
+	Italic,
+	Link,
+	List,
+	ListOrdered,
+	Mail,
+	Moon,
+	Sun,
+} from "lucide-react";
 
+import { ChangeButton } from "@/components/ChangeButton";
 import Button from "@/components/Form/Button";
 import * as FileInput from "@/components/Form/FileInput";
 import { Select } from "@/components/Form/Select";
 import { SelectItem } from "@/components/Form/Select/SelectItem";
 import Textarea from "@/components/Form/Textarea";
-import { useTheme } from "@/utils/context/theme";
 
 export default function Home() {
-	const { theme, onSetTheme } = useTheme();
 	return (
 		<>
-			<h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">
-				Settings
-			</h1>
+			<div className="flex items-center justify-between">
+				<h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">
+					Settings
+				</h1>
+				<ChangeButton />
+			</div>
 
 			<SettingsTabs />
 
