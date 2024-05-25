@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto foi feito com o intuito do aprendizado das variantes do [`tailwind`](https://tailwindcss.com/docs/installation).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O desenvolvimento desse projeto seguiu como padrão o estilo do [`figma`](https://www.figma.com/design/MU3H8HfTxX32ukt8ANpan7/Ignite-Tailwind?node-id=1-11268&t=WXHUORz2cIl4s6vD-0) da rocketseat.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Atualizações
 
-## Learn More
+Segue as últimas atualizações do projeto:
 
-To learn more about Next.js, take a look at the following resources:
+- Adicionado a opção de troca de temas: **escuro** e **claro**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Vercel
 
-## Deploy on Vercel
+O projeto atualmente se encontra disponível na vercel, se desejar testa-lo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vale lembrar que é um projeto focado no aprendizado de estilos com tailwind. Sendo assim não foi desenvolvido com funcionalidades.
