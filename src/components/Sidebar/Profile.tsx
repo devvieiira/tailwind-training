@@ -10,8 +10,10 @@ const Profile = () => {
 				<Image src={logo} className="rounded-full" alt="Profile Image" fill />
 			</div>
 			<div className="flex truncate flex-col">
-				<span className="text-sm font-semibold text-zinc-700">Kauã Vieira</span>
-				<span className="text-sm text-zinc-500 truncate">
+				<span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
+					Kauã Vieira
+				</span>
+				<span className="text-sm text-zinc-500 truncate dark:text-zinc-400">
 					kaua.vieira.empresa@gmail.com
 				</span>
 			</div>
